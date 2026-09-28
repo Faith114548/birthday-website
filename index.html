@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday Faith 🎂</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="birthday-container">
+      <div class="hearts">
+    <span>❤️</span>
+    <span>💕</span>
+    <span>💖</span>
+    <span>💗</span>
+    <span>❤️</span>
+      </div>
+
+        <div class="balloons">
+    <span onclick="popBalloon(this)">🎈</span>
+    <span onclick="popBalloon(this)">🎈</span>
+    <span onclick="popBalloon(this)">🎈</span>
+        </div>
+
+        <p class="small-title">✨ TODAY IS MY SPECIAL DAY ✨</p>
+
+        <h1 class="birthday-title">
+    ✨ 🎉 Happy Birthday! 🎉 ✨
+        </h1>
+
+<h2 class="birthday-name">Faith Wamae 💕</h2>
+
+        
+
+<div class="photo-frame">
+    <img src="birthday.png" alt="Faith Wamae Birthday Photo">
+</div>
+
+<div class="cake" onclick="cakeMessage()">🎂</div>
+
+        <p class="welcome typing-text">
+    Welcome to my birthday celebration! 🥳
+        </p>
+
+        <p>
+            Today I celebrate another beautiful year of life,
+            growth, dreams and new beginnings. ✨
+        </p>
+
+        <div class="birthday-card">
+
+            <h3>💖 A Little About Me</h3>
+
+            <p>
+                I am Faith Wamae, an ICT graduate passionate about
+                technology, coding and website design. 💻✨
+            </p>
+
+        </div>
+
+        <div class="birthday-card">
+
+            <h3>🌟 My Birthday Wishes</h3>
+
+            <p>
+                May this new chapter bring me happiness, peace,
+                success, good health, beautiful memories and
+                amazing opportunities. 🙏❤️
+            </p>
+
+        </div>
+
+        <button onclick="openSurprise()">
+    🎁 Open My Birthday Surprise
+</button>
+
+<div id="surprisePopup" class="popup">
+    <div class="popup-content">
+
+        <span class="close" onclick="closeSurprise()">&times;</span>
+
+        <h2 class="surprise-title">🎉 Surprise, Faith! 🎉</h2>
+
+        <p>
+            💖 May this new chapter of your life be filled with
+            happiness, success, peace, love and beautiful memories.
+        </p>
+
+        <p>
+            ✨ Keep believing in yourself, keep learning,
+            keep coding and keep shining!
+        </p>
+
+        <h3>🎂 Happy Birthday to me! 🥳❤️</h3>
+
+    </div>
+</div>
+
+      
+
+    
+
+  
+
+<p id="surprise"></p>
+  <button onclick="document.getElementById('birthdayMessage').innerHTML='💖 Dear Faith, keep believing in yourself, keep learning, keep growing and never stop chasing your dreams. Happy Birthday to me! 🎂✨'">
+    💌 Read a Message to Myself
+</button>
+
+<p id="birthdayMessage"></p>
+
+<p id="birthdayMessage"></p>
+        
+
+        <footer>
+            Made with 💕 by Faith Wamae
+        </footer>
+
+    </>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
